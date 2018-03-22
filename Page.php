@@ -86,7 +86,7 @@ class Page
 		}
 		$path = trim($path, '?');
 		
-		//根据上面的所有信息拼接你的url  hebe
+		//根据上面的所有信息拼接你的url  $host必要情况下做修改
 		$url = $scheme.'://'.$host.':'.$port.$path;
 		return $url;
 	}
